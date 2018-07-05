@@ -2,11 +2,6 @@ extern crate clap;
 
 use clap::{Arg,App};
 
-// To Do:
-// - [x] encrypt input from cli
-// - [ ] decrypt flag
-// - [x] key flag
-// - [ ] pipe input into the command
 fn main() {
     let matches = App::new("Caesar Shift CLI")
         .version("1.0.0")
