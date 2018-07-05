@@ -1,0 +1,7 @@
+[package]
+name = "caesar-shift-cli"
+version = "0.1.0"
+authors = ["Brian Broll <brian.broll@gmail.com>"]
+
+[dependencies]
+clap = "2.32.0"
