@@ -23,9 +23,17 @@ fn main() {
              .long("key")
              .default_value("3")
          )
+        .arg(Arg::with_name("decrypt")
+             .help("decrypt the input message")
+             .short("d")
+             .long("decrypt")
+         )
         .get_matches();
 
     let mut shift = matches.value_of("key").unwrap().parse::<u8>().unwrap() % 26;
+    if matches.is_present("decrypt") {
+        shift = 26 - shift;
+    }
     let input_text = matches.value_of("message").unwrap();
 
     // convert to a vector of chars and then encrypt each
