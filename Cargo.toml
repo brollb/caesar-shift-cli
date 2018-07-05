@@ -5,3 +5,4 @@ authors = ["Brian Broll <brian.broll@gmail.com>"]
 
 [dependencies]
 clap = "2.32.0"
+isatty = "0.1.8"
