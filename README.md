@@ -2,7 +2,7 @@
 This is a simple command line tool for performing Caesar Shift encryption/decryption. The primary goal was to gain more practice with rust and with CLI applications written in rust. Hopefully this project can also show
 
 ## Installation
-Building the project requires rust ([rustup](https://rustup.rs/)). First, clone the project
+Building the project requires rust ([rustup](https://rustup.rs/) recommended). First, clone the project
 ```
 git clone https://github.com/brollb/caesar-shift-cli
 cd caesar-shift-cli
