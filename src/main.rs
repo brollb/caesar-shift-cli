@@ -75,7 +75,7 @@ fn is_letter(letter: char) -> bool {
 
 fn shift_letter(letter: char, shift: u8) -> char {
     let input = letter as u8;
-    let offset = if input > 97 { 97 } else { 65 };
+    let offset = if input >= 97 { 97 } else { 65 };
 
     // Ensure that the number wraps around for the letters
     let encrypted_code = ((input - offset) + shift) % 26 + offset;
