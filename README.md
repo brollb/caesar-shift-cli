@@ -17,5 +17,5 @@ caesar-shift-cli "my message to encrypt"
 
 The message can then be decrypted by adding the `-d` flag:
 ```
-caesar-shift-cli -d "pb phvvJjh wr hqfubsw"
+caesar-shift-cli -d "pb phvvdjh wr hqfubsw"
 ```
